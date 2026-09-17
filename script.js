@@ -1,3 +1,5 @@
+
+
 // Task 1: Flexible String Manipulation with Functions
 
 function formatFullName(firstName, lastName) {
@@ -43,3 +45,23 @@ cost = calculateTotalCost(45, 1, 0, 10)
 
 console.log(cost);//40.5
 
+//===================================================================================================
+
+// Task 3 : Functions with Conditional Logic
+//check if a person is eligible for a program
+function checkEligibility(age, isEmployed){
+    if(age <= 18 ){//person is 18 or younger, they are not eligible
+        return "You are not eligible"
+    } else if(isEmployed === true){//person is over 18 and employed, they are eligible
+        return "You are eligible"
+    } else {//person is over 18 but unemployed, they are conditionally eligible
+        return "You are conditionally eligible"
+    }
+
+}
+
+let eligible = checkEligibility(22, true)
+
+console.log(eligible);//You are eligible
+
+//===================================================================================================

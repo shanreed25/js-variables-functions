@@ -1,6 +1,7 @@
 # Lab 1
 
 > JavaScript program for a data processing tool
+
 #### Demonstrates
 
 - Manipulation of variables to perform mathematical operations and string manipulation.
@@ -42,11 +43,9 @@
 
 
 ## Reflection Questions
-1. How did you approach creating more flexible functions with parameters?
+### How did you approach creating more flexible functions with parameters?
 > I like to write out the task in my own words, then make a plan, before coding.
-
-2. What challenges did you face while incorporating conditional logic in your functions?
+### What challenges did you face while incorporating conditional logic in your functions?
 > The most challenging thing about this project for me was formating the name. This was because I assummed `firstName.charAt(0).toUpperCase() + firstName.slice(1)` would automatically change the value of `firstName`. Realizing that strings are immutable and that, `firstName.charAt(0).toUpperCase() + firstName.slice(1)` was creating a new string that I had to pass back to the `firstName` variable.
-
-3. How does refactoring improve the readability and maintainability of your code?
+### How does refactoring improve the readability and maintainability of your code?
 > Refactoring you code can help break down logic, make your code easier to test, remove duplication and have consistent looking code.
